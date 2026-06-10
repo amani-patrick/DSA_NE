@@ -1,13 +1,13 @@
 /*
  * Kigali Smart Parking Management System - 2026 National Exam
  *
- * DATA STRUCTURES USED (and why):
- *   vector<ParkingSlot>              -> store all slots, easy traversal for reports
- *   unordered_map<string, int>         -> O(1) slot lookup by Slot ID
- *   unordered_map<string, ActiveParking> -> O(1) check if plate is already parked
- *   vector<ParkingTransaction>       -> append-only history (price stored at exit time)
+ * DATA STRUCTURES USED :
+ *   vector<ParkingSlot>                   -> store all slots, easy traversal for reports
+ *   unordered_map<string, int>            -> O(1) slot lookup by Slot ID
+ *   unordered_map<string, ActiveParking>  -> O(1) check if plate is already parked
+ *   vector<ParkingTransaction>            -> append-only history
  *
- * OOP:
+ * OOP Concepts:
  *   Printable (abstract) -> polymorphic display()
  *   ParkingSlot, ParkingTransaction inherit Printable
  *   TariffManager encapsulates pricing rules
@@ -529,7 +529,7 @@ public:
 };
 
 // ============================================================
-// MAIN SYSTEM CLASS - all 4 tasks + reports
+// MAIN SYSTEM CLASS - all tasks + reports
 // ============================================================
 
 class SmartParkingSystem

@@ -1,4 +1,6 @@
 # Kigali Smart Parking Management System (2026 Exam)
+<img width="792" height="513" alt="Screenshot From 2026-06-11 10-51-27" src="https://github.com/user-attachments/assets/0a22686e-52e6-4b6e-b1ce-c479df7585ce" />
+
 
 ## Compile and Run
 

@@ -904,7 +904,7 @@ public:
 };
 
 // ============================================================
-// MAIN - menu-driven interface (required by exam)
+// MAIN - menu-driven interface 
 // ============================================================
 
 int main()
